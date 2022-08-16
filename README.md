@@ -7,6 +7,6 @@ This repository contains the source code from the sachet/polysolver:v4 (4ca4f341
   
 #### Original paper:   
 ```
-Shukla SA, Rooney MS, Rajasagi M, et al. Comprehensive analysis of cancer-associated somatic mutations in class I HLA genes. Nat Biotechnol. 2015;33(11):1152-1158. doi:10.1038/nbt.3344
-
+Shukla SA, Rooney MS, Rajasagi M, et al. Comprehensive analysis of cancer-associated somatic mutations in class I HLA genes.
+Nat Biotechnol. 2015;33(11):1152-1158. doi:10.1038/nbt.3344
 ```
