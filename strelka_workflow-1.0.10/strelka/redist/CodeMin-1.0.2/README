@@ -1,0 +1,45 @@
+CodeMin -- v1.0.2
+=================
+
+Christopher Saunders (ctsa@u.washington.edu)
+http://www.phrap.org
+
+
+------------------------------------------------------------------------
+
+The CodeMin minimization library provides a set of lightweight
+minimization functions originally developed for the CodeAxe
+phylogenetic analysis package. This distribution contains source code
+for the library and several example programs.
+
+Installation:
+
+The CodeMin library itself is a set of C++ header files, so no build
+or installation is required to use it. To ease portability,
+CODEMIN_USE_BOOST may be defined to switch to the Boost versions of 
+copysign, isinf and isnan when boost is available. 
+
+Usage:
+
+Three minimization functions are provided:
+
+1) One-dimensional minimization using Brent's parabolic interpolation
+method. Function call documented in include/minimize_1d.h
+
+2) Multi-dimensional minimization using the Polak-Ribiere conjugate
+gradient method. Function call documented in
+include/minimize_conj_gradient.h
+
+3) Multi-dimensional minimization using Powell's conjugate direction
+set method. Function call documented in
+include/minimize_conj_direction.h
+
+Source code demonstrating an example usage of each function is
+provided in the examples directory. On most *nix systems, typing
+'make' in this directory will build the example programs. These
+programs each optimize a small example function using one of the
+minimizers.
+
+The CodeMin source code is distributed under the MIT license, as
+described in the COPYING file.
+

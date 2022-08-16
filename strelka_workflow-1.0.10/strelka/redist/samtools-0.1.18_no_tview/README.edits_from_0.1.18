@@ -1,0 +1,22 @@
+
+
+diff -r samtools-0.1.18_no_tview/knetfile.c samtools-0.1.18/knetfile.c
+537,541c537
+< 
+<         /* csaunders@illumina.com: substituting lseek below with lseek64 to get past 2GB seek limit observed on windows */
+<         /*off_t offset = lseek(fp->fd, off, whence);*/
+<         int64_t offset = lseek64(fp->fd, off, whence);
+< 
+---
+>               off_t offset = lseek(fp->fd, off, whence);
+
+
+diff -r samtools-0.1.18_no_tview/Makefile samtools-0.1.18/Makefile
+3c3
+< DFLAGS=               -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=0
+---
+> DFLAGS=               -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_USE_KNETFILE -D_CURSES_LIB=1
+16c16
+< LIBCURSES=    # -lcurses # -lXCurses
+---
+> LIBCURSES=    -lcurses # -lXCurses

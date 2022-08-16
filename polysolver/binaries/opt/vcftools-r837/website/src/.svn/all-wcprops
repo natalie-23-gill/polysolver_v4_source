@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/p/vcftools/code/!svn/ver/828/website/src
+END
+index.inc
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/p/vcftools/code/!svn/ver/783/website/src/index.inc
+END
+perl_module.inc
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/p/vcftools/code/!svn/ver/823/website/src/perl_module.inc
+END
+docs.inc
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/p/vcftools/code/!svn/ver/823/website/src/docs.inc
+END
+options.inc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/p/vcftools/code/!svn/ver/828/website/src/options.inc
+END
+specs.inc
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/p/vcftools/code/!svn/ver/782/website/src/specs.inc
+END
+links.inc
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/p/vcftools/code/!svn/ver/518/website/src/links.inc
+END
+license.inc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/p/vcftools/code/!svn/ver/813/website/src/license.inc
+END
+htslib.inc
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/p/vcftools/code/!svn/ver/823/website/src/htslib.inc
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/p/vcftools/code/!svn/ver/801/website/src/index.php
+END

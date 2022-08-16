@@ -1,0 +1,3 @@
+Version 1.0.2 / 20110129
+- Use boost copysign when available to simplify windows compilation
+- Use boost inf and nan tests when available to simplify windows compilation
